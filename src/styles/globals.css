@@ -4,34 +4,14 @@
 :root { 
   /* Dark */
   --bg: #232323;
-  --border: #505050;
-  --nav-button: #707070;
   --primary: #fff;
   --secondary: #a0a0a0;
-  --tertiary: #737373;
-  --logo: #5a5a5a;
-  --active: #d3d3d3;
+  --tertiary: #8e8e8e;
   --background: #454545;
   --highlight: #373737;
+  --card: #303030;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root { 
-    /* Dark */
-    --bg: #232323;
-    --border: #505050;
-    --nav-button: #707070;
-    --primary: #fff;
-    --secondary: #a0a0a0;
-    --tertiary: #737373;
-    --logo: #5a5a5a;
-    --active: #d3d3d3;
-    --card: #303030;
-    --highlight: #373737;
-  }
-  
-  
-}
 
 
 .light { /* literally just inverted */
@@ -39,13 +19,13 @@
   --border: #afafaf;
   --nav-active: #2a2a2a;
   --nav-button: #8f8f8f;
-  --primary-text: #000;
-  --secondary-text: #5f5f5f;
-  --tertiary-text: #b5b5b5;
+  --primary: #000;
+  --secondary: #5f5f5f;
+  --tertiary: #b5b5b5;
   --logo: #5a5a5a;
   --active: #2c2c2c;
   --inactive: #a2a2a2;
-  --background-text: #bababa;
+  --background: #bababa;
   --button-text: #d6d6d6;
   --secondary-button: #9d9d9d;
   --button-highlight: #c8c8c8;

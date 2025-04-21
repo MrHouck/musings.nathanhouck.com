@@ -10,7 +10,7 @@ export default function Home({ allPostsData }) {
         <Layout>
             <div className="pt-10 justify-center flex max-w-[1200px]">
                 <div className="w-full flex flex-col justify-center items-center">
-                    <div className="pb-10 self-start">
+                    <div className="px-10 pb-10 self-start">
                         <h1 className="text-3xl">Nathan's Musings</h1>
                         <h2 className="text-md text-[var(--secondary)]">Welcome to the inside of my brain</h2>
                     </div>
@@ -30,13 +30,7 @@ export default function Home({ allPostsData }) {
                 </div>
 
             </div>
-            {/* 
-        {allPostsData.map((post) =>
-            <div>
-            <h1>{post.title}</h1>
-            <h2>{post.id}</h2>
-            </div>
-        )} */}
+
         </Layout>
     );
 }
