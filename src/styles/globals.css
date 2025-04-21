@@ -1,26 +1,70 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+:root { 
+  /* Dark */
+  --bg: #232323;
+  --border: #505050;
+  --nav-button: #707070;
+  --primary: #fff;
+  --secondary: #a0a0a0;
+  --tertiary: #737373;
+  --logo: #5a5a5a;
+  --active: #d3d3d3;
+  --background: #454545;
+  --highlight: #373737;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root { 
+    /* Dark */
+    --bg: #232323;
+    --border: #505050;
+    --nav-button: #707070;
+    --primary: #fff;
+    --secondary: #a0a0a0;
+    --tertiary: #737373;
+    --logo: #5a5a5a;
+    --active: #d3d3d3;
+    --card: #303030;
+    --highlight: #373737;
   }
+  
+  
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+.light { /* literally just inverted */
+  --bg: #e1e1e1;
+  --border: #afafaf;
+  --nav-active: #2a2a2a;
+  --nav-button: #8f8f8f;
+  --primary-text: #000;
+  --secondary-text: #5f5f5f;
+  --tertiary-text: #b5b5b5;
+  --logo: #5a5a5a;
+  --active: #2c2c2c;
+  --inactive: #a2a2a2;
+  --background-text: #bababa;
+  --button-text: #d6d6d6;
+  --secondary-button: #9d9d9d;
+  --button-highlight: #c8c8c8;
+}
+
+.dark { 
+  /* Dark */
+  --bg: #232323;
+  --border: #505050;
+  --nav-active: #fff;
+  --nav-button: #707070;
+  --primary-text: #fff;
+  --secondary-text: #a0a0a0;
+  --tertiary-text: #8e8e8e;
+  --button-text: #292929;
+  --secondary-button: #303030;
+  --logo: #5a5a5a;
+  --active: #c2c2c2;
+  --inactive: #4a4a4a;
+  --background-text: #454545;
+  --button-highlight: #373737;
 }
