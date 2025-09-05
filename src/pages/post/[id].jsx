@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import { getAllPostIds, getPostData } from "../../../lib/posts";
 import Head from "next/head";
 import { DM_MONO_FAMILY } from "@/utils/constants";
+import { MERRIWEATHER_FAMILY } from "@/utils/constants";
 import { motion } from "motion/react";
 import { useState, useEffect, Fragment} from "react";
 import * as runtime from 'react/jsx-runtime';
@@ -42,9 +43,9 @@ export default function Post({ postData, content }) {
 
             </Head>
             <Layout>
-                <div className={`${DM_MONO_FAMILY.className} pt-10 px-5 justify-center flex flex-col max-w-[610px] leading-relaxed`}>
-                    <h1 className="text-[var(--primary)] text-2xl">{postData.title}</h1>
-                    <h4 className="text-[var(--tertiary)] font-light leading-relaxed mb-5">{postData.date}</h4>
+                <div className={`${MERRIWEATHER_FAMILY.className} pt-10 px-5 justify-center flex flex-col max-w-[610px] leading-relaxed`}>
+                    <h1 className={`${DM_MONO_FAMILY.className} text-[var(--primary)] text-2xl`}>{postData.title}</h1>
+                    <h4 className={`${DM_MONO_FAMILY.className} text-[var(--tertiary)] font-light leading-relaxed mb-5`}>{postData.date}</h4>
                     <div className="prose">
                         <MDXRemote {...content} components={useMdxComponents}/>
                     </div>

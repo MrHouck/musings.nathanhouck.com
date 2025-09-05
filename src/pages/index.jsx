@@ -13,11 +13,11 @@ export default function Home({ allPostsData }) {
                     <div className="w-full flex flex-row justify-between">
                         <div className="flex-col px-10 pb-10 self-start">
                             <h1 className="text-3xl">Nathan's Musings</h1>
-                            <h2 className="text-md text-[var(--secondary)]">Welcome to the inside of my brain</h2>
+                            <h2 className="text-md text-[var(--secondary)]">Short stories, opinions, and more.</h2>
 
                         </div>
-                        <div className="self-stretch pb-10 flex flex-col items-center justify-center gap-2 md:flex-row md:gap-4">
-                            <a href="https://nathanhouck.com" className="text-sm h-38px px-11 py-2 bg-[var(--secondary-button)] rounded-lg text-[var(--secondary-text)] hover:underline mr-10">Back to Reality</a>
+                        <div className="self-stretch pb-10 flex flex-col items-center justify-center gap-2 md:flex-row md:gap-4 md:mb-10">
+                            <a href="https://nathanhouck.com" className="text-sm h-38px px-11 text-center py-2 bg-[var(--secondary-button)] rounded-lg text-[var(--secondary-text)] hover:underline mr-10">Back to Reality</a>
                         </div>
                     </div>
 
